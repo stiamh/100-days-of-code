@@ -18,7 +18,7 @@ def secret_auction(bid_record):
         if bid_amount > highest_bid:
             highest_bid = bid_amount
             leader = bidder
-    print(f"The highest bidder was: {leader}, they paid {highest_bid}!")
+    print(f"The highest bidder was: {leader}, they paid €{highest_bid}!")
 
 other_user = True
 while other_user:
