@@ -14,8 +14,6 @@ def clear():
         _ = system("clear")#For mac users
 
 print(art.logo)
-#Testing code
-print(f'Pssst, the solution is {chosen_word}.')
 
 display = []
 already_guessed = []
