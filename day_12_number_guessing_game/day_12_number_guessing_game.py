@@ -47,6 +47,6 @@ def game():
             print("You've run out of guesses, you lose.")
             return
 game()
-while input("Do you want to play another game? Type 'y' or 'n': \n") == "y":
+while input("\nDo you want to play another game? Type 'y' or 'n': \n") == "y":
     clear()
     game()
