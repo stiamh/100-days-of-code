@@ -34,7 +34,7 @@ def set_difficulty():
 
 def game():
     print(art.logo)
-    print("Welcome to Higher or Lower!")
+    print("Welcome to Guess the Number!")
     print("I'm thinking of a number between 1 and 100.")
     answer = random.randint(1, 100)
     lives = set_difficulty()
